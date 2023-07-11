@@ -20,7 +20,7 @@ namespace SmallBusinessApp
         }
 
         private void updatetable()
-        {
+        { 
             using (NpgsqlConnection con =
                    new NpgsqlConnection("Host=localhost;User Id=postgres;Password=sifre12345;Database=DboTicari"))
             {
